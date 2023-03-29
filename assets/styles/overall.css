@@ -1,0 +1,31 @@
+body {
+    background-color: #444444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.titulo {
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+}
+
+.containner {
+
+    background-color: #171717;
+    width: 80%;
+    min-height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+p {
+    background-color: rgb(255, 255, 255);
+    width: 65px;
+    margin: 1px;
+    text-align: center;
+}
