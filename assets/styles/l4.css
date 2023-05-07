@@ -1,0 +1,35 @@
+body {
+    background-color: #FF55BB;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #04a1a9 10%, #FF55BB 90%);
+    display: flex;
+    justify-content: center;
+}
+
+.center-right {
+    margin-left: 41%;
+}
+
+.containner {
+    width: 1024px;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+    background-color: #f3b26b;
+    border: 2px solid #fff;
+}
+
+
+
+
