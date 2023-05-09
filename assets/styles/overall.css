@@ -8,15 +8,15 @@ body {
 }
 
 .titulo {
+    height: auto;
     margin: 10px 0;
     color: rgb(255, 255, 255);
 }
 
 .containner {
-
     background-color: #171717;
     width: 80%;
-    min-height: 80%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
