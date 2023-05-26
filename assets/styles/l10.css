@@ -1,0 +1,37 @@
+:root {
+    --cor-de-base: #116D6E;
+    --cor-do-containner: #321E1E;
+    --cor-das-caixas: #4E3636;
+    --cor-das-bordas: #CD1818;
+    --cor-hover: #9e8080;
+    --cor-de-teste: yellowgreen
+}
+
+
+body {
+    background-color: var(--cor-de-base);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containner {
+    width: 90%;
+    height: 80%;
+    background-color: var(--cor-do-containner);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: calc(25% - 2.8125rem);
+    height: calc(33.3% - 1.875rem);
+    background-color: var(--cor-das-caixas);
+    display: inline-block;
+    margin: 0.3125rem;
+    border: 1px solid var(--cor-das-bordas);
+}
+
